@@ -1,0 +1,4735 @@
+{
+    "title": "Android Tutorial - GeeksforGeeks",
+    "headings": [
+        {
+            "type": "h1",
+            "content": "Android Tutorial"
+        },
+        {
+            "type": "h2",
+            "content": "Basics"
+        },
+        {
+            "type": "h2",
+            "content": "Software Setup and Configuration"
+        },
+        {
+            "type": "h2",
+            "content": "File Structure & Components"
+        },
+        {
+            "type": "h2",
+            "content": "Core Topics"
+        },
+        {
+            "type": "h2",
+            "content": "Layout & View"
+        },
+        {
+            "type": "h2",
+            "content": "Button"
+        },
+        {
+            "type": "h2",
+            "content": "Intent and Intent Filters"
+        },
+        {
+            "type": "h2",
+            "content": "Toast & RecyclerView"
+        },
+        {
+            "type": "h2",
+            "content": "Fragments & Adapters"
+        },
+        {
+            "type": "h2",
+            "content": "UI Component & Image Loading Libraries"
+        },
+        {
+            "type": "h2",
+            "content": "Date and Time"
+        },
+        {
+            "type": "h2",
+            "content": "Material Design & Bars"
+        },
+        {
+            "type": "h2",
+            "content": "Working with Google Maps"
+        },
+        {
+            "type": "h2",
+            "content": "Chart & Animation"
+        },
+        {
+            "type": "h2",
+            "content": "Database"
+        },
+        {
+            "type": "h2",
+            "content": "Advance Android"
+        },
+        {
+            "type": "h2",
+            "content": "Jetpack & Architecture"
+        },
+        {
+            "type": "h2",
+            "content": "App Publish & App Monetization"
+        },
+        {
+            "type": "h2",
+            "content": "Projects"
+        },
+        {
+            "type": "h2",
+            "content": "Prerequisites to Learn Android"
+        },
+        {
+            "type": "h2",
+            "content": "Basics"
+        },
+        {
+            "type": "h2",
+            "content": "Software Setup and Configuration"
+        },
+        {
+            "type": "h2",
+            "content": "Android Studio"
+        },
+        {
+            "type": "h2",
+            "content": "File Structure"
+        },
+        {
+            "type": "h2",
+            "content": "Components"
+        },
+        {
+            "type": "h2",
+            "content": "Core Topics"
+        },
+        {
+            "type": "h2",
+            "content": "Layout"
+        },
+        {
+            "type": "h2",
+            "content": "View"
+        },
+        {
+            "type": "h2",
+            "content": "Button"
+        },
+        {
+            "type": "h2",
+            "content": "Intent and Intent Filters"
+        },
+        {
+            "type": "h2",
+            "content": "Toast"
+        },
+        {
+            "type": "h2",
+            "content": "RecyclerView"
+        },
+        {
+            "type": "h2",
+            "content": "Fragments"
+        },
+        {
+            "type": "h2",
+            "content": "Adapters"
+        },
+        {
+            "type": "h2",
+            "content": "Other UI Component"
+        },
+        {
+            "type": "h2",
+            "content": "Image Loading Libraries"
+        },
+        {
+            "type": "h2",
+            "content": "Date and Time"
+        },
+        {
+            "type": "h2",
+            "content": "Material Design"
+        },
+        {
+            "type": "h2",
+            "content": "Bars"
+        },
+        {
+            "type": "h2",
+            "content": "Working with Google Maps"
+        },
+        {
+            "type": "h2",
+            "content": "Chart"
+        },
+        {
+            "type": "h2",
+            "content": "Animation"
+        },
+        {
+            "type": "h2",
+            "content": "Database"
+        },
+        {
+            "type": "h2",
+            "content": "Advance Android"
+        },
+        {
+            "type": "h2",
+            "content": "Jetpack"
+        },
+        {
+            "type": "h2",
+            "content": "Architecture"
+        },
+        {
+            "type": "h2",
+            "content": "App Publish"
+        },
+        {
+            "type": "h2",
+            "content": "App Monetization"
+        },
+        {
+            "type": "h2",
+            "content": "Projects"
+        },
+        {
+            "type": "h2",
+            "content": "Tips and Tricks"
+        },
+        {
+            "type": "h2",
+            "content": "Miscellaneous"
+        },
+        {
+            "type": "h2",
+            "content": "Conclusion:"
+        },
+        {
+            "type": "h2",
+            "content": "FAQs on Android Tutorial"
+        },
+        {
+            "type": "h2",
+            "content": "What kind of Experience do you want to share?"
+        },
+        {
+            "type": "h3",
+            "content": "How can I learn Android easily?"
+        },
+        {
+            "type": "h3",
+            "content": "What is the salary of Android developer?"
+        },
+        {
+            "type": "h3",
+            "content": "Which language is used for Android Development?"
+        },
+        {
+            "type": "h3",
+            "content": "What is XML file in Android?"
+        },
+        {
+            "type": "h3",
+            "content": "Which language is best for app development?"
+        },
+        {
+            "type": "h3",
+            "content": "Similar Reads"
+        }
+    ],
+    "paragraphs": [
+        {
+            "type": "p",
+            "content": "Notifications"
+        },
+        {
+            "type": "p",
+            "content": "In this Android Tutorial, we cover both basic and advanced concepts. So whether you are a fresher (graduate) or an experienced candidate with several years of Android Development experience, you can follow this Android tutorial to kick-start your journey in Android app development. Our Android Tutorial is designed to take you from zero to hero level. Beginners can follow this Android tutorial in a sequential order to grasp the basics of Android development."
+        },
+        {
+            "type": "p",
+            "content": "Android is the best-selling open-source Linux-based operating system among various mobile platforms across the globe. Hundreds of millions of mobile devices are powered by Android in more than 190 countries of the world. It conquered around 75% of the global market share by the end of 2020, and this trend is growing bigger every other day."
+        },
+        {
+            "type": "p",
+            "content": ""
+        },
+        {
+            "type": "p",
+            "content": "Table of Content"
+        },
+        {
+            "type": "p",
+            "content": "To elevate your skills and integrate Kotlin for modern Android development, the Android Mastery with Kotlin: Beginner to Advanced course takes you step by step from basic concepts to advanced projects."
+        },
+        {
+            "type": "p",
+            "content": "In conclusion, this Android tutorial serves as a comprehensive resource for beginners and experienced developers alike. By following the step-by-step instructions and leveraging the power of Android Studio, learners can acquire a solid foundation in Android app development. From understanding the fundamentals to exploring advanced concepts, this tutorial equips individuals with the necessary knowledge and skills to embark on their journey in the world of Android development. With continuous practice, staying updated with the latest trends, and actively engaging with the Android community, readers can unlock endless possibilities to create innovative and impactful mobile applications. Start your Android development journey today and embrace the opportunities that this dynamic platform offers."
+        },
+        {
+            "type": "p",
+            "content": "Top 50 Android Interview Questions & Answers – SDE I to SDE III"
+        },
+        {
+            "type": "p",
+            "content": "To learn Android easily: 1. Set clear goals. 2. Learn Java or Kotlin. 3. Install Android Studio. 4. Understand the basics. 5. Utilize online resources. 6. Practice through projects. 7. Join a community or take a course. 8. Stay updated. 9. Embrace trial and error. 10. Build a portfolio."
+        },
+        {
+            "type": "p",
+            "content": "According to various resources, the Average Salary of an Android Developer is ₹9,89,896 per year."
+        },
+        {
+            "type": "p",
+            "content": "In 2023, Kotlin is a modern statically typed programming language used by over 60% of professional Android developers that helps boost productivity, developer satisfaction, and code safety."
+        },
+        {
+            "type": "p",
+            "content": "XML, short for eXtensible Markup Language, is a text-based document format used to describe data. Its extensibility and flexibility make it suitable for various purposes, including defining the user interface (UI) layout of Android applications."
+        },
+        {
+            "type": "p",
+            "content": "Java, Python, C++, Kotlin, and Rust are popular app development languages ranked among the world’s top 10 most preferred languages in 2023."
+        },
+        {
+            "type": "p",
+            "content": ""
+        }
+    ],
+    "links": [
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/android-tutorial/?ref=footer#main"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/courses/dsa-to-development-coding-guide?itm_source=geeksforgeeks&itm_medium=main_header&itm_campaign=courses"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/courses/android-by-kotlin?itm_source=geeksforgeeks&itm_medium=main_header&itm_campaign=courses"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/courses/mastering-generative-ai-and-chat-gpt?itm_source=geeksforgeeks&itm_medium=main_header&itm_campaign=courses"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/courses/mastering-django-framework-beginner-to-advance?itm_source=geeksforgeeks&itm_medium=main_header&itm_campaign=courses"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/courses/search?query=AWS&itm_source=geeksforgeeks&itm_medium=main_header&itm_campaign=courses"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/courses/interviewe-101-data-structures-algorithm-system-design?itm_source=geeksforgeeks&itm_medium=main_header&itm_campaign=courses"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/courses/full-stack-applied-data-science-program?itm_source=geeksforgeeks&itm_medium=main_header&itm_campaign=courses"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/courses/Java-backend-live?itm_source=geeksforgeeks&itm_medium=main_header&itm_campaign=courses"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/courses/devops-live?itm_source=geeksforgeeks&itm_medium=main_header&itm_campaign=courses"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/courses/complete-guide-to-software-testing-automation?itm_source=geeksforgeeks&itm_medium=main_header&itm_campaign=courses"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/courses/Data-Structures-With-Python?itm_source=geeksforgeeks&itm_medium=main_header&itm_campaign=courses"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/courses/placement-prep-live?itm_source=geeksforgeeks&itm_medium=main_header&itm_campaign=courses"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/courses/data-science-live?itm_source=geeksforgeeks&itm_medium=main_header&itm_campaign=courses"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/courses/dsa-self-paced?itm_source=geeksforgeeks&itm_medium=main_header&itm_campaign=courses"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/courses/competitive-programming-cp?itm_source=geeksforgeeks&itm_medium=main_header&itm_campaign=courses"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/courses/full-stack-node?itm_source=geeksforgeeks&itm_medium=main_header&itm_campaign=courses"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/courses/gate-cs-self-paced?itm_source=geeksforgeeks&itm_medium=main_header&itm_campaign=courses"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/courses/gate-ds-ai-self-paced?itm_source=geeksforgeeks&itm_medium=main_header&itm_campaign=courses"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/courses/full-stack-node?itm_source=geeksforgeeks&itm_medium=main_header&itm_campaign=courses"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/courses/data-science-live?itm_source=geeksforgeeks&itm_medium=main_header&itm_campaign=courses"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/courses?itm_source=geeksforgeeks&itm_medium=main_header&itm_campaign=courses"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/array-data-structure-guide/?ref=ghm"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/matrix/?ref=ghm"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/string-data-structure/?ref=ghm"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/linked-list-data-structure/?ref=ghm"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/stack-data-structure/?ref=ghm"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/queue-data-structure/?ref=ghm"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/binary-tree-data-structure/?ref=ghm"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/binary-search-tree-data-structure/?ref=ghm"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/heap-data-structure/?ref=ghm"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/hashing-data-structure/?ref=ghm"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/graph-data-structure-and-algorithms/?ref=ghm"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/advanced-data-structures/?ref=ghm"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/design-and-analysis-of-algorithms/?ref=ghm"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/searching-algorithms/?ref=ghm"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/sorting-algorithms/?ref=ghm"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/greedy-algorithms/?ref=ghm"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/dynamic-programming/?ref=ghm"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/graph-data-structure-and-algorithms/?ref=ghm"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/pattern-searching/?ref=ghm"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/recursion-algorithms/?ref=ghm"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/backtracking-algorithms/?ref=ghm"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/divide-and-conquer/?ref=ghm"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/mathematical-algorithms/?ref=ghm"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/geometric-algorithms/?ref=ghm"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/bitwise-algorithms/?ref=ghm"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/randomized-algorithms/?ref=ghm"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/learn-data-structures-and-algorithms-dsa-tutorial/?ref=ghm"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/facebookmeta-sde-sheet-interview-questions-and-answers/?ref=ghm"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/amazon-sde-sheet-interview-questions-and-answers/?ref=ghm"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/apple-sde-sheet-interview-questions-and-answers/?ref=ghm"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/netflix-sde-sheet-interview-questions-and-answers/?ref=ghm"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/google-sde-sheet-interview-questions-and-answers/?ref=ghm"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/wipro-sde-sheet-interview-questions-and-answers/?ref=ghm"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/infosys-sde-sheet-interview-questions-and-answers/?ref=ghm"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/tcs-sde-sheet-interview-questions-and-answers/?ref=ghm"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/cognizant-sde-sheet-interview-questions-and-answers/?ref=ghm"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/hcl-sde-sheet-interview-questions-and-answers/?ref=ghm"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/top-75-dsa-questions/?ref=ghm"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/blind-75/?ref=ghm"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/most-asked-dsa-interview-problems-for-beginners/?ref=ghm"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/sde-sheet-a-complete-guide-for-sde-preparation/?ref=ghm"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/must-do-coding-questions-for-companies-like-amazon-microsoft-adobe/?ref=ghm"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/dsa-sheet-by-love-babbar/?ref=ghm"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/must-do-questions-for-companies-like-tcs-cts-hcl-ibm/?ref=ghm"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/must-do-coding-questions-for-product-based-companies/?ref=ghm"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/competitive-programming-a-complete-guide/?ref=ghm"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/python-programming-language/?ref=ghm"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/python-exercises-practice-questions-and-solutions/?ref=ghm"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/python-quizzes/?ref=ghm"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/python-programming-examples/?ref=ghm"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/advanced-python-tutorials/?ref=ghm"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/python-api-tutorial-getting-started-with-apis/?ref=ghm"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/python-database-tutorial/?ref=ghm"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/python-json/?ref=ghm"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/python-cheat-sheet/?ref=ghm"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/python-projects-beginner-to-advanced/?ref=ghm"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/python-interview-questions/?ref=ghm"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/machine-learning/?ref=ghm"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/machine-learning-projects/?ref=ghm"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/data-science-with-python-tutorial/?ref=ghm"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/pandas-tutorial/?ref=ghm"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/numpy-tutorial/?ref=ghm"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/deep-learning-tutorial/?ref=ghm"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/python-data-visualization-tutorial/?ref=ghm"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/data-visualization-in-r/?ref=ghm"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/tableau-tutorial/?ref=ghm"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/power-bi-tutorial/?ref=ghm"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/data-analysis-with-python/?ref=ghm"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/data-analysis-using-r/?ref=ghm"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/100-days-of-data-analytics/?ref=ghm"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/deep-learning-tutorial/?ref=ghm"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/natural-language-processing-nlp-tutorial/?ref=ghm"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/opencv-python-tutorial/?ref=ghm"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/machine-learning-interview-questions/?ref=ghm"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/deep-learning-interview-questions/?ref=ghm"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/r-interview-questions/?ref=ghm"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/system-design-tutorial/?ref=ghm"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/software-design-patterns/?ref=ghm"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/complete-roadmap-to-learn-system-design/?ref=ghm"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/top-10-system-design-interview-questions-and-answers/?ref=ghm"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/company-preparation/?ref=ghm"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/interview-preparation-for-software-developer/?ref=ghm"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/must-coding-questions-company-wise/?ref=ghm"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/company-interview-corner/?ref=ghm"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/experienced-interview-experiences-company-wise/?ref=ghm"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/internship-interview-experiences-company-wise/?ref=ghm"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/competitive-programming-a-complete-guide/?ref=ghm"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/quiz-corner-gq/?ref=ghm"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/aptitude-questions-and-answers/?ref=ghm"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/puzzles/?ref=ghm"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/c-programming-language/?ref=ghm"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/c-plus-plus/?ref=ghm"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/java/?ref=ghm"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/python-programming-language/?ref=ghm"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/r-tutorial/?ref=ghm"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/csharp-programming-language/?ref=ghm"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/sql-tutorial/?ref=ghm"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/scala-programming-language/?ref=ghm"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/perl-programming-language/?ref=ghm"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/golang/?ref=ghm"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/html-tutorial/?ref=ghm"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/css-tutorials/?ref=ghm"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/javascript/?ref=ghm"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/javascript-examples/?ref=ghm"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/typescript/?ref=ghm"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/react-tutorial/?ref=ghm"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/nextjs/?ref=ghm"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/nodejs/?ref=ghm"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/php-tutorial/?ref=ghm"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/angularjs/?ref=ghm"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/jquery-tutorial/?ref=ghm"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/django-tutorial/?ref=ghm"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/flask-tutorial/?ref=ghm"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/selenium-python-tutorial/?ref=ghm"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/postman-tutorial/?ref=ghm"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/web-design/?ref=ghm"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/operating-systems/?ref=ghm"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/dbms/?ref=ghm"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/computer-network-tutorials/?ref=ghm"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/engineering-mathematics-tutorials/?ref=ghm"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/computer-organization-and-architecture-tutorials/?ref=ghm"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/theory-of-computation-automata-tutorials/?ref=ghm"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/compiler-design-tutorials/?ref=ghm"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/digital-electronics-logic-design-tutorials/#blg/?ref=ghm"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/software-engineering/?ref=ghm"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/devops-tutorial/?ref=ghm"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/git-tutorial/?ref=ghm"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/aws-tutorial/?ref=ghm"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/kubernetes-tutorial/?ref=ghm"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/docker-tutorial/?ref=ghm"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/microsoft-azure/?ref=ghm"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/google-cloud-platform-tutorial/?ref=ghm"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/devops-roadmap/?ref=ghm"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/devops-interview-questions/?ref=ghm"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/linux-tutorial/?ref=ghm"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/maths/?ref=ghm"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/ncert-class-8th-latest-syllabus-based-study-material/?ref=ghm"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/ncert-class-9th-latest-syllabus-based-study-material/?ref=ghm"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/ncert-class-10th-latest-syllabus-based-study-material/?ref=ghm"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/ncert-class-11th-latest-syllabus-based-study-material/?ref=ghm"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/ncert-class-12th-latest-syllabus-based-study-material/?ref=ghm"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/english-grammar/?ref=ghm"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/geeksforgeeks-school/?ref=ghm"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/commerce/?ref=dhm"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/gate-cs-notes-gq/?ref=ghm"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/last-minute-notes-lmns/?ref=ghm"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/gate-corner-2-gq/?ref=ghm"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/original-gate-previous-year-question-papers-cse-and-it-gq/?ref=ghm"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/gate-cse-syllabus/?ref=ghm"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/gate-data-science-and-artificial-intelligence-syllabus/?ref=ghm"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/isro-cs-preparation/?ref=ghm"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/ugc-net-cs-previous-year-question-solution/?ref=ghm"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/videos/?ref=ghm"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/jobs?ref=ghm"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/gfg-hiring-solutions-for-recruiters/?ref=ghm"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/geeksforgeeks-practice-best-online-coding-platform/?ref=ghm"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/explore?page=1&sortBy=submissions&itm_source=geeksforgeeks&itm_medium=main_header&itm_campaign=practice_header"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/problem-of-the-day?itm_source=geeksforgeeks&itm_medium=main_header&itm_campaign=practice_header"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/explore?page=1&company=Amazon&sortBy=submissions&itm_source=geeksforgeeks&itm_medium=main_header&itm_campaign=practice_header"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/explore?page=1&company=Microsoft&sortBy=submissions&itm_source=geeksforgeeks&itm_medium=main_header&itm_campaign=practice_header"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/explore?page=1&company=Flipkart&sortBy=submissions&itm_source=geeksforgeeks&itm_medium=main_header&itm_campaign=practice_header"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/explore?page=1&sortBy=submissions&itm_source=geeksforgeeks&itm_medium=main_header&itm_campaign=practice_header"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/explore?page=1&curated[]=1&sortBy=submissions&curated_names[]=SDE Sheet?itm_source=geeksforgeeks&itm_medium=main_header&itm_campaign=practice_header"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/explore?page=1&difficulty=Basic&itm_source=geeksforgeeks&itm_medium=main_header&itm_campaign=practice_header"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/explore?page=1&difficulty=Easy&itm_source=geeksforgeeks&itm_medium=main_header&itm_campaign=practice_header"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/explore?page=1&difficulty=Medium&itm_source=geeksforgeeks&itm_medium=main_header&itm_campaign=practice_header"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/explore?page=1&difficulty=Hard&itm_source=geeksforgeeks&itm_medium=main_header&itm_campaign=practice_header"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/explore?page=1&category=CPP&itm_source=geeksforgeeks&itm_medium=main_header&itm_campaign=practice_header"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/explore?page=1&category=Java&itm_source=geeksforgeeks&itm_medium=main_header&itm_campaign=practice_header"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/explore?category=python&itm_source=geeksforgeeks&itm_medium=main_header&itm_campaign=practice_header"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/explore?page=1&sprint=ca8ae412173dbd8346c26a0295d098fd&sortBy=submissions&sprint_name=Beginner's DSA Sheet&utm_source=geeksforgeeks&utm_medium=main_header&utm_campaign=practice_header"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/explore?page=1&sprint=94ade6723438d94ecf0c00c3937dad55&sortBy=submissions&sprint_name=Love Babbar Sheet&utm_source=geeksforgeeks&utm_medium=main_header&utm_campaign=practice_header"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/explore?page=1&sprint=50746f92a895c22a50504ac0c1fb9c84&sortBy=submissions&sprint_name=Top 50 Array Problems"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/explore?page=1&sprint=57184072610b884e5df3584cc534115d&sortBy=submissions&sprint_name=Top 50 String Problems"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/explore?page=1&sprint=93d672753b74440c7427214c8ebf866d&sortBy=submissions&sprint_name=Top 50 DP Problems"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/explore?page=1&sprint=405e9db0f353691ad3b2d546b19145e9&sortBy=submissions&sprint_name=Top 50 Graph Problems"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/explore?page=1&sprint=5f24de84b65bf7c4f4399c8111e26b81&sortBy=submissions&sprint_name=Top 50 Tree Problems"
+        },
+        {
+            "type": "a",
+            "content": "https://practice.geeksforgeeks.org/events/rec/job-a-thon?itm_source=geeksforgeeks&itm_medium=main_header&itm_campaign=contests"
+        },
+        {
+            "type": "a",
+            "content": "https://practice.geeksforgeeks.org/events/rec/gfg-weekly-coding-contest?itm_source=geeksforgeeks&itm_medium=main_header&itm_campaign=contests"
+        },
+        {
+            "type": "a",
+            "content": "https://practice.geeksforgeeks.org/events?itm_source=geeksforgeeks&itm_medium=main_header&itm_campaign=contests"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/learn-java-for-android-app-development-a-complete-guide/?ref=shm"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/android-studio-tutorial/?ref=shm"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/kotlin-android-tutorial/?ref=shm"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/kotlin-programming-language/?ref=shm"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/flutter-tutorial/?ref=shm"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/dart-tutorial/?ref=shm"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/android-projects-from-basic-to-advanced-level/?ref=shm"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/android-interview-questions-for-experienced/?ref=shm"
+        },
+        {
+            "type": "a",
+            "content": "https://geeksforgeeksapp.page.link/?link=https://www.geeksforgeeks.org/android-tutorial/?type%3Darticle%26id%3D558238&apn=free.programming.programming&isi=1641848816&ibi=org.geeksforgeeks.GeeksforGeeksDev&efr=1"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/geeksforgeeks-premium-subscription?itm_source=geeksforgeeks&itm_medium=leftbar&itm_campaign=premium"
+        },
+        {
+            "type": "a",
+            "content": "https://write.geeksforgeeks.org/#experiences"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/android-tutorial/?ref=lbp"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/introduction-to-android-development/?ref=lbp"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/history-of-android/?ref=lbp"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/best-way-to-become-android-developer-a-complete-roadmap/?ref=lbp"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/basic-prerequisites-of-learning-android-app-development/?ref=lbp"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/android-app-development-fundamentals-for-beginners/?ref=lbp"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/android-architecture/?ref=lbp"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/android-system-architecture/?ref=lbp"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/android-boot-process/?ref=lbp"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/difference-between-java-and-kotlin-in-android-with-examples/?ref=lbp"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/interesting-facts-about-android/?ref=lbp"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/download-and-install-java-development-kit-jdk-on-windows-mac-and-linux/?ref=lbp"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/guide-to-install-and-setup-intellij-idea-for-android-app-development/?ref=lbp"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/guide-to-install-and-setup-visual-studio-for-android-app-development/?ref=lbp"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-run-the-android-app-on-a-real-device/?ref=lbp"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/resolving-frequently-occurring-errors-in-android-development/?ref=lbp"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/android-studio-tutorial/?ref=lbp"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/components-android-application/?ref=lbp"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/introduction-to-activities-in-android/?ref=lbp"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/services-in-android-with-example/?ref=lbp"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-does-android-app-work/?ref=lbp"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/activity-lifecycle-in-android-with-demo-app/?ref=lbp"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/introduction-to-gradle/?ref=lbp"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/what-is-context-in-android/?ref=lbp"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/bundle-in-android-with-example/?ref=lbp"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/activity-state-changes-in-android-with-example/?ref=lbp"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/processes-and-application-lifecycle-in-android/?ref=lbp"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/desugaring-in-android/?ref=lbp"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/difference-between-androidx-and-android-support-libraries/?ref=lbp"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/memory-leaks-in-android/?ref=lbp"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/layouts-android-ui-design/?ref=lbp"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/android-ui-layouts/?ref=lbp"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/linearlayout-and-its-important-attributes-with-examples-in-android/?ref=lbp"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/android-linearlayout-in-kotlin/?ref=lbp"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/android-relativelayout-in-kotlin/?ref=lbp"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/constraintlayout-in-android/?ref=lbp"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/textview-widget-in-android-using-java-with-examples/?ref=lbp"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/textview-in-kotlin/?ref=lbp"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/working-with-the-textview-in-android/?ref=lbp"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/autosizing-textview-in-android/?ref=lbp"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/button-in-kotlin/?ref=lbp"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/android-how-to-add-radio-buttons-in-an-android-application/?ref=lbp"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/radiobutton-in-kotlin/?ref=lbp"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-add-toggle-button-in-an-android-application/?ref=lbp"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/togglebutton-in-kotlin/?ref=lbp"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/radiogroup-in-kotlin/?ref=lbp"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/what-is-intent-in-android/?ref=lbp"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/implicit-and-explicit-intents-in-android-with-examples/?ref=lbp"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-send-data-from-one-activity-to-second-activity-in-android/?ref=lbp"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-open-dialer-in-android-through-intent/?ref=lbp"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/creating-multiple-screen-applications-in-android/?ref=lbp"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-open-camera-through-intent-and-display-captured-image-in-android/?ref=lbp"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/toasts-android-studio/?ref=lbp"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/what-is-toast-and-how-to-use-it-in-android-with-examples/?ref=lbp"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/android-toast-in-kotlin/?ref=lbp"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/android-how-to-change-toast-font/?ref=lbp"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-add-a-custom-styled-toast-in-android/?ref=lbp"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/android-recyclerview/?ref=lbp"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/android-horizontal-recyclerview-with-examples/?ref=lbp"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-create-a-nested-recyclerview-in-android/?ref=lbp"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-create-recyclerview-with-multiple-viewtype-in-android/?ref=lbp"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/recyclerview-using-listview-in-android-with-example/?ref=lbp"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/introduction-fragments-android/?ref=lbp"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/fragment-lifecycle-in-android/?ref=lbp"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-create-a-new-fragment-in-android-studio/?ref=lbp"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-create-swipe-navigation-in-an-android-app/?ref=lbp"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/viewpager-using-fragments-in-android-with-example/?ref=lbp"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/arrayadapter-in-android-with-example/?ref=lbp"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/simpleadapter-in-android-with-example/?ref=lbp"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/simpleexpandablelistadapter-in-android-with-example/?ref=lbp"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/adapterviewflipper-in-android-with-example/?ref=lbp"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/baseexpandablelistadapter-in-android-with-example/?ref=lbp"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/spinner-in-android-using-java-with-example/?ref=lbp"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/spinner-in-kotlin/?ref=lbp"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/dynamic-spinner-in-kotlin/?ref=lbp"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-add-custom-spinner-in-android/?ref=lbp"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-create-an-alert-dialog-box-in-android/?ref=lbp"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-create-a-custom-alertdialog-in-android/?ref=lbp"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/top-5-image-loading-libraries-in-android/?ref=lbp"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-use-picasso-image-loader-library-in-android/?ref=lbp"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/image-loading-caching-library-android-set-2/?ref=lbp"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/fresco-image-loading-library-in-android-with-example/?ref=lbp"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/datepicker-in-kotlin/?ref=lbp"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/timepicker-in-kotlin/?ref=lbp"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/android-how-to-display-analog-clock-and-digital-clock/?ref=lbp"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/android-creating-a-calendar-view-app/?ref=lbp"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/pulsecountdown-in-android-with-example/?ref=lbp"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/implement-customized-timepicker-in-android-using-snaptimepicker/?ref=lbp"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/countdowntimer-in-android-with-example/?ref=lbp"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/datepickerdialog-in-android/?ref=lbp"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/introduction-to-material-design-in-android/?ref=lbp"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/responsive-ui-design-in-android/?ref=lbp"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/material-design-edittext-in-android-with-examples/?ref=lbp"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/theming-of-material-design-edittext-in-android-with-example/?ref=lbp"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/key-properties-of-material-design-edittext-in-android/?ref=lbp"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-use-material-text-input-layout-in-android/?ref=lbp"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/what-are-the-different-types-of-bars-available-in-android/?ref=lbp"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/actionbar-in-android-with-example/?ref=lbp"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/toolbar-in-android-with-example/?ref=lbp"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/difference-between-actionbar-and-toolbar-in-android/?ref=lbp"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-generate-api-key-for-using-google-maps-in-android/?ref=lbp"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-add-custom-marker-to-google-maps-in-android/?ref=lbp"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-add-multiple-markers-on-google-maps-in-android/?ref=lbp"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-use-different-types-of-google-maps-in-android/?ref=lbp"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-add-searchview-in-google-maps-in-android/?ref=lbp"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-add-onclicklistener-to-marker-on-google-maps-in-android/?ref=lbp"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-draw-polyline-in-google-maps-in-android/?ref=lbp"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-calculate-distance-between-two-locations-in-android/?ref=lbp"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-draw-a-track-on-google-maps-in-android/?ref=lbp"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-add-dynamic-markers-in-google-maps-with-firebase-firstore/?ref=lbp"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-add-a-pie-chart-into-an-android-application/?ref=lbp"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/point-graph-series-in-android/?ref=lbp"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-create-group-barchart-in-android/?ref=lbp"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-create-a-barchart-in-android/?ref=lbp"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/line-graph-view-in-android-with-example/?ref=lbp"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/animation-in-android-with-example/?ref=lbp"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/android-animations-using-java/?ref=lbp"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/android-animations-in-kotlin/?ref=lbp"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-add-fading-textview-animation-in-android/?ref=lbp"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-add-lottie-animation-in-an-android-app/?ref=lbp"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/firebase-introduction/?ref=lbp"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/adding-firebase-to-android-app/?ref=lbp"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-use-firebase-ui-authentication-library-in-android/?ref=lbp"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/user-authentication-using-firebase-in-android/?ref=lbp"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/firebase-authentication-with-phone-number-otp-in-android/?ref=lbp"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-use-firebase-firestore-as-a-realtime-database-in-android/?ref=lbp"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-create-dynamic-auto-image-slider-in-android-with-firebase/?ref=lbp"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-create-dynamic-webview-in-android-with-firebase/?ref=lbp"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-create-dynamic-pdf-viewer-in-android-with-firebase/?ref=lbp"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/shared-preferences-in-android-with-examples/?ref=lbp"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/internal-storage-in-android-with-example/?ref=lbp"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/external-storage-in-android-with-example/?ref=lbp"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-save-arraylist-to-sharedpreferences-in-android/?ref=lbp"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/preferences-datastore-in-android/?ref=lbp"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-add-views-dynamically-and-store-data-in-arraylist-in-android/?ref=lbp"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/volley-library-in-android/?ref=lbp"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/json-parsing-in-android/?ref=lbp"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/json-parsing-in-android-using-volley-library/?ref=lbp"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/introduction-to-android-jetpack/?ref=lbp"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/foundation-components-of-android-jetpack/?ref=lbp"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/jetpack-architecture-components-in-android/?ref=lbp"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/behaviour-components-of-android-jetpack/?ref=lbp"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/ui-components-of-android-jetpack/?ref=lbp"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-install-android-studio-canary-version/?ref=lbp"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/android-architecture-patterns/?ref=lbp"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/mvc-model-view-controller-architecture-pattern-in-android-with-example/?ref=lbp"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/mvp-model-view-presenter-architecture-pattern-in-android-with-example/?ref=lbp"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/mvvm-model-view-viewmodel-architecture-pattern-in-android/?ref=lbp"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-publish-your-android-app-on-google-play-store/?ref=lbp"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-publish-your-android-app-on-amazon-app-store-for-free/?ref=lbp"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/overview-of-google-admob/?ref=lbp"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/android-admob-banner-ads-android-studio/?ref=lbp"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/admob-interstitial-ads-android-studio/?ref=lbp"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-integrate-google-admob-rewarded-video-ads-in-android/?ref=lbp"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/overview-of-facebook-audience-network/?ref=lbp"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-integrate-facebook-audience-network-fan-banner-ads-in-android/?ref=lbp"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-integrate-facebook-audience-network-fan-native-ads-in-android/?ref=lbp"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-integrate-facebook-audience-network-fan-interstitial-ads-in-android/?ref=lbp"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-build-a-tic-tac-toe-game-in-android/?ref=lbp"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-create-a-face-detection-android-app-using-machine-learning-kit-on-firebase/?ref=lbp"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-build-a-simple-augmented-reality-android-app/?ref=lbp"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-build-a-grocery-android-app-using-mvvm-and-room-database/?ref=lbp"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/courses/dsa-to-development-coding-guide?utm_source=geeksforgeeks&utm_medium=leftbar_lcta&utm_campaign=courses"
+        },
+        {
+            "type": "a",
+            "content": "https://news.google.com/publications/CAAqBwgKMLTrzwsw44bnAw?hl=en-IN&gl=IN&ceid=IN%3Aen"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/java/"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/kotlin-programming-language"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/xml-basics"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/android-tutorial/?ref=footer#basics"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/android-tutorial/?ref=footer#software-setup-and-configuration"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/android-tutorial/?ref=footer#android-studio"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/android-tutorial/?ref=footer#file-structure"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/android-tutorial/?ref=footer#components"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/android-tutorial/?ref=footer#core-topics"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/android-tutorial/?ref=footer#layout"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/android-tutorial/?ref=footer#view"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/android-tutorial/?ref=footer#button"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/android-tutorial/?ref=footer#intent-and-intent-filters"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/android-tutorial/?ref=footer#toast"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/android-tutorial/?ref=footer#recyclerview"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/android-tutorial/?ref=footer#fragments"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/android-tutorial/?ref=footer#adapters"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/android-tutorial/?ref=footer#other-ui-component"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/android-tutorial/?ref=footer#image-loading-libraries"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/android-tutorial/?ref=footer#date-and-time"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/android-tutorial/?ref=footer#material-design"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/android-tutorial/?ref=footer#bars"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/android-tutorial/?ref=footer#working-with-google-maps"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/android-tutorial/?ref=footer#chart"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/android-tutorial/?ref=footer#animation"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/android-tutorial/?ref=footer#database"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/android-tutorial/?ref=footer#advance-android"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/android-tutorial/?ref=footer#jetpack"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/android-tutorial/?ref=footer#architecture"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/android-tutorial/?ref=footer#app-publish"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/android-tutorial/?ref=footer#app-monetization"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/android-tutorial/?ref=footer#projects"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/android-tutorial/?ref=footer#tips-and-tricks"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/android-tutorial/?ref=footer#miscellaneous"
+        },
+        {
+            "type": "a",
+            "content": "https://gfgcdn.com/tu/S9U/"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/introduction-to-android-development"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/history-of-android"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/best-way-to-become-android-developer-a-complete-roadmap"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/basic-prerequisites-of-learning-android-app-development"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/android-app-development-fundamentals-for-beginners"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/android-architecture"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/android-system-architecture"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/android-boot-process"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/difference-between-java-and-kotlin-in-android-with-examples"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/interesting-facts-about-android"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/download-and-install-java-development-kit-jdk-on-windows-mac-and-linux"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/guide-to-install-and-set-up-android-studio"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/guide-to-install-and-setup-intellij-idea-for-android-app-development"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/guide-to-install-and-setup-visual-studio-for-android-app-development"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/android-running-your-first-android-app"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-run-the-android-app-on-a-real-device"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/resolving-frequently-occurring-errors-in-android-development"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/android-studio-main-window"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/different-types-of-activities-in-android-studio"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/android-how-to-create-start-a-new-project-in-android-studio"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-clone-android-project-from-github-in-android-studio"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-install-android-virtual-deviceavd"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-install-genymotion-emulator-and-add-its-plugin-to-android-studio"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-convert-kotlin-code-to-java-code-in-android-studio"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-convert-java-code-to-kotlin-code-in-android-studio"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-upload-project-on-github-from-android-studio"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/android-how-to-request-permissions-in-android-application"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-create-classes-in-android-studio"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-install-and-uninstall-plugins-in-android-studio"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-generate-signed-apk-in-android-studio"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-generate-unsigned-shareable-apk-in-android-studio"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-generate-sha1-md5-and-sha-256-keys-in-android-studio"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/android-project-folder-structure"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/android-android-apps-file-structure"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/application-manifest-file-android"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/android-res-values-folder"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/android-build-gradle"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/assets-folder-in-android"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/resource-raw-folder-in-android-studio"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/components-android-application"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/introduction-to-activities-in-android"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/services-in-android-with-example"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/content-providers-in-android-with-example"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/broadcast-receiver-in-android-with-example"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-does-android-app-work"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/activity-lifecycle-in-android-with-demo-app"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/introduction-to-gradle"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/what-is-context-in-android"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/bundle-in-android-with-example"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/activity-state-changes-in-android-with-example"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/processes-and-application-lifecycle-in-android"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/desugaring-in-android"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/difference-between-androidx-and-android-support-libraries"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/memory-leaks-in-android"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-restore-data-on-configuration-changed-in-android-using-bundles"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/deep-linking-in-android-with-example"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/easy-runtime-permissions-in-android-with-dexter"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/debugging-with-stetho-in-android"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/logcat-window-in-android-studio"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/layouts-android-ui-design"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/android-ui-layouts"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/linearlayout-and-its-important-attributes-with-examples-in-android"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/android-linearlayout-in-kotlin"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/android-relativelayout-in-kotlin"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/constraintlayout-in-android"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/shimmerlayout-in-android-with-examples"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/navigation-drawer-in-android"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/curve-navigation-drawer-in-android-using-arcnavigationview"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-align-navigation-drawer-and-its-elements-towards-the-left-or-right-of-the-screen-in-android"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-create-landscape-layout-in-android-studio"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/absolute-layout-in-android-with-example"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/android-framelayout-in-kotlin"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/android-tablelayout-in-kotlin"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/android-motion-layout-in-kotlin"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/difference-between-linearlayout-and-relativelayout-in-android"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/textview-widget-in-android-using-java-with-examples"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/textview-in-kotlin"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/working-with-the-textview-in-android"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/autosizing-textview-in-android"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/what-is-the-difference-between-px-dip-dp-and-sp-in-android"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/clipboard-in-android"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-add-a-textview-with-rounded-corner-in-android"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/edittext-widget-in-android-using-java-with-examples"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/android-edittext-in-kotlin"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/working-with-the-edittext-in-android"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-add-mask-to-an-edittext-in-android"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/imageview-in-kotlin"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-create-a-circular-image-view-in-android-without-using-any-library"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-create-circular-imageview-in-android-using-cardview"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-create-a-circularimageview-in-android-using-hdodenhof-library"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/android-listview-in-java-with-example"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/android-listview-in-kotlin"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/scrollview-in-android"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/horizontalscrollview-in-kotlin"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/nestedscrollview-in-android-with-example"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/cardview-in-android-with-example"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-create-an-expandable-cardview-in-android"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/cardview-using-recyclerview-in-android-with-example"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/gridview-in-android-with-example"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/gridview-using-custom-arrayadapter-in-android-with-example"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/gridview-using-baseadapter-in-android-with-example"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/staggered-gridview-in-android-with-example"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-use-webview-in-android"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/videoview-in-kotlin"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-implement-youtubeplayerview-library-in-android"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/android-searchview-with-example"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/searchview-in-android-with-recyclerview"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/bottomnavigationview-inandroid"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/scratch-card-view-in-android-with-example"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/photoview-in-android"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/popview-in-android"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/galleryview-in-android-with-example"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/wheelview-in-android"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/elastic-view-in-android"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/protractorview-in-android"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-add-wavelineview-in-android"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/treeview-in-android-with-example"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/dropdownview-in-android"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/zigzag-view-in-android"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/viewanimator-in-android-with-example"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/viewswitcher-in-android-with-example"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/viewstub-in-android-with-example"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/slidingdrawer-in-android-with-example"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/button-in-kotlin"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/android-how-to-add-radio-buttons-in-an-android-application"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/radiobutton-in-kotlin"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-add-toggle-button-in-an-android-application"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/togglebutton-in-kotlin"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/radiogroup-in-kotlin"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-use-checkbox-in-android"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/checkbox-in-kotlin"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/imagebutton-in-kotlin"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/loadingbutton-in-android"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/floating-action-button-fab-in-android-with-example"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/theming-floating-action-buttons-in-android-with-example"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/ripple-effect-on-android-button"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-create-customized-buttons-in-android-with-different-shapes-and-colors"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/double-tap-on-a-button-in-android"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/what-is-intent-in-android"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/android-implicit-and-explicit-intents-with-examples"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/android-how-to-send-data-from-one-activity-to-second-activity"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-open-dialer-in-android-through-intent"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/android-creating-multiple-screen-app"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/android-how-to-open-camera-through-intent-and-display-captured-image"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-send-an-email-from-your-android-app"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-make-a-phone-call-from-your-android-app"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-share-a-captured-image-to-another-app-in-android"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-send-message-on-whatsapp-in-android"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-send-message-on-whatsapp-in-android-using-kotlin"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/toasts-android-studio"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/android-what-is-toast-and-how-to-use-it-with-examples"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/android-toast-in-kotlin"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/android-how-to-change-toast-font"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-add-a-custom-styled-toast-in-android"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-add-a-custom-styled-toast-in-android-using-kotlin"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/android-recyclerview"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/android-horizontal-recyclerview-with-examples"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-create-a-nested-recyclerview-in-android"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-create-recyclerview-with-multiple-viewtype-in-android"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/recyclerview-using-listview-in-android-with-example"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/pull-to-refresh-with-recyclerview-in-android-with-example"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/recyclerview-as-staggered-grid-in-android-with-example"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/recyclerview-using-gridlayoutmanager-in-android-with-example"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-add-bullet-list-in-a-recyclerview-in-android"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-insert-slide-from-bottom-animation-in-recyclerview-in-android"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-access-any-component-outside-recyclerview-from-recyclerview-in-android"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-improve-recyclerview-scrolling-performance-in-android"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-build-a-facebook-like-custom-recyclerview-in-android"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-build-an-instagram-like-custom-recyclerview-in-android"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/introduction-fragments-android"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/fragment-lifecycle-in-android"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-create-a-new-fragment-in-android-studio"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-create-swipe-navigation-in-an-android-app"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/viewpager-using-fragments-in-android-with-example"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/tabhost-in-android-with-example"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/arrayadapter-in-android-with-example"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/simpleadapter-in-android-with-example"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/simpleexpandablelistadapter-in-android-with-example"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/adapterviewflipper-in-android-with-example"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/baseexpandablelistadapter-in-android-with-example"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/customarrayadapter-in-android-with-example"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/custom-arrayadapter-with-listview-in-android"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/custom-simpleadapter-in-android-with-example"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/spinner-in-android-using-java-with-example"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/spinner-in-kotlin"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/dynamic-spinner-in-kotlin"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-add-custom-spinner-in-android"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/android-alert-dialog-box-and-how-to-create-it"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-create-a-custom-alertdialog-in-android"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-create-alertdialog-box-using-sweetalert-dialog-library"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/alert-dialog-with-singleitemselection-in-android"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/alert-dialog-with-multipleitemselection-in-android"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-change-the-position-of-alertdialog-in-android"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/switch-in-kotlin"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/dynamic-switch-in-kotlin"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/textswitcher-in-kotlin"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/dynamic-textswitcher-in-kotlin"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/imageswitcher-in-kotlin"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/dynamic-imageswitcher-in-kotlin"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-add-custom-switch-using-iconswitch-library-in-android"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/google-launcher-style-implementation-of-switch-icon-in-android"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/notifications-in-kotlin"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-push-notification-in-android"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/notifications-in-android-oreo-8"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/create-an-expandable-notification-containing-some-text-in-android"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/create-an-expandable-notification-containing-a-picture-in-android"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/android-progress-notifications-in-kotlin"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/push-notifications-in-android-using-onesignal"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/android-menus"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-implement-options-menu-in-android"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/context-menu-in-android-with-example"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/popup-menu-in-android-with-example"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/top-5-image-loading-libraries-in-android"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-use-picasso-image-loader-library-in-android"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/image-loading-caching-library-android-set-2"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/fresco-image-loading-library-in-android-with-example"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-use-universal-image-loader-library-in-android"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-use-coil-image-loader-library-in-android-apps"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/datepicker-in-kotlin"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/timepicker-in-kotlin"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/android-how-to-display-analog-clock-and-digital-clock"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/android-creating-a-calendar-view-app"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/pulsecountdown-in-android-with-example"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/implement-customized-timepicker-in-android-using-snaptimepicker"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/countdowntimer-in-android-with-example"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/datepickerdialog-in-android"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/textclock-in-kotlin"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/chronometer-in-kotlin"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/date-and-time-formatting-in-android"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/slider-date-picker-in-android"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/introduction-to-material-design-in-android"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/responsive-ui-design-in-android"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/material-design-edittext-in-android-with-examples"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/theming-of-material-design-edittext-in-android-with-example"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/key-properties-of-material-design-edittext-in-android"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-use-material-text-input-layout-in-android"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/material-design-buttons-in-android-with-example"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/theming-material-design-buttons-in-android-with-examples"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/material-design-date-picker-in-android"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/more-functionalities-of-material-design-date-picker-in-android"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/snackbar-material-design-components-in-android"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/theming-material-design-snackbars-in-android-with-example"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/material-design-components-chips-in-android-with-example"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/what-are-the-different-types-of-bars-available-in-android"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/actionbar-in-android-with-example"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/toolbar-in-android-with-example"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/difference-between-actionbar-and-toolbar-in-android"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/difference-between-appbar-actionbar-and-toolbar-in-android"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/android-creating-a-seekbar"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/discrete-seekbar-in-kotlin"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/bottom-navigation-bar-in-android"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/progressbar-in-kotlin"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/croller-in-android"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/android-creating-a-ratingbar"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-add-a-snackbar-in-android"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/custom-snackbars-in-android"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-add-colorseekbar-in-android"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-add-rangeseekbar-in-android-using-kotlin"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/expandablebottombar-in-android"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/state-progressbar-in-android"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-generate-api-key-for-using-google-maps-in-android"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-add-custom-marker-to-google-maps-in-android"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-add-multiple-markers-on-google-maps-in-android"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-use-different-types-of-google-maps-in-android"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-add-searchview-in-google-maps-in-android"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-add-onclicklistner-to-marker-on-google-maps-in-android"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-draw-polyline-in-google-maps-in-android"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-calculate-distance-between-two-locations-in-android"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-draw-a-track-on-google-maps-in-android"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-add-dynamic-markers-in-google-maps-with-firebase-firstore"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-add-a-pie-chart-into-an-android-application"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/point-graph-series-in-android"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-create-group-barchart-in-android"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-create-a-barchart-in-android"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/line-graph-view-in-android-with-example"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-create-a-scatter-chart-in-android-to-represent-data"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/animation-in-android-with-example"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/android-animations-using-java"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/android-animations-in-kotlin"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-add-fading-textview-animation-in-android"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-add-lottie-animation-in-an-android-app"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/android-rotate-animations-in-kotlin"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/textwriter-in-android-with-example"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/lineanimationview-in-android-with-example"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/bubbleemitter-animation-in-android-with-examples"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/create-an-instagram-twitter-heart-like-animation-in-android"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/implement-zoom-in-or-zoom-out-in-android"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/bungeeanimation-in-android-with-example"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/particleview-in-android-with-examples"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/bounce-animation-in-android"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-create-an-animated-splash-screen-in-android"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/interpolator-in-android-with-example"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/android-fade-in-out-in-kotlin"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/android-slide-up-down-in-kotlin"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/shimmer-effect-to-image-in-android"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-create-shine-effect-in-android"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/wave-animation-in-android"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/circular-reveal-animation-in-android"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/firebase-introduction"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/adding-firebase-to-android-app"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-use-firebase-ui-authentication-library-in-android"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/user-authentication-using-firebase-in-android"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/firebase-authentication-with-phone-number-otp-in-android"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-use-firebase-firestore-as-a-realtime-database-in-android"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-add-firebase-analytics-to-android-app-in-android-studio"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-create-dynamic-auto-image-slider-in-android-with-firebase"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-create-dynamic-webview-in-android-with-firebase"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-create-dynamic-pdf-viewer-in-android-with-firebase"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/firebase-realtime-database-with-operations-in-android-with-examples"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-save-data-to-the-firebase-realtime-database-in-android"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-retrieve-data-from-the-firebase-realtime-database-in-android"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-retrieve-data-from-firebase-realtime-database-in-android-listview"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-create-a-dynamic-audio-player-in-android-with-firebase-realtime-database"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-create-a-dynamic-video-player-in-android-with-firebase-realtime-database"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/create-and-add-data-to-firebase-firestore-in-android"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-read-data-from-firebase-firestore-in-android"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-update-data-in-firebase-firestore-in-android"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-delete-data-from-firebase-firestore-in-android"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-create-dynamic-intro-slider-in-android-using-firebase-firestore"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-create-dynamic-bottom-sheet-dialog-in-android-using-firebase-firestore"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-display-dynamic-alertdialog-in-android-using-firebase-firestore"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-create-dynamic-listview-in-android-using-firebase-firestore"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-create-dynamic-horizontal-recyclerview-in-android-using-firebase-firestore"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-create-dynamic-gridview-in-android-using-firebase-firestore"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-pre-populate-database-in-android-using-sqlite-database"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-perform-crud-operations-in-room-database-in-android"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/shared-preferences-in-android-with-examples"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/internal-storage-in-android-with-example"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/external-storage-in-android-with-example"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-save-arraylist-to-sharedpreferences-in-android"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/preferences-datastore-in-android"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-add-views-dynamically-and-store-data-in-arraylist-in-android"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/volley-library-in-android"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/json-parsing-in-android"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/json-parsing-in-android-using-volley-library"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-extract-data-from-json-array-in-android-using-volley-library"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/thread-priority-in-kotlin-android"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/multithreading-in-android-with-examples"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/running-user-interface-thread-in-android-using-kotlin"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/kotlin-coroutines-on-android"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/scopes-in-kotlin-coroutines"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/dispatchers-in-kotlin-coroutines"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/launch-vs-async-in-kotlin-coroutines"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/suspend-function-in-kotlin-coroutines"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/singleton-class-in-kotlin"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/withcontext-in-kotlin-coroutines"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/runblocking-in-kotlin-coroutines-with-example"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/jobs-waiting-cancellation-in-kotlin-coroutines"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/getting-started-with-paging-library-v3-in-android-using-kotlin-coroutines"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/dependency-injection-with-dagger-2-in-android"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/dagger-2-android-example-using-retrofit"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/introduction-to-android-jetpack"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/foundation-components-of-android-jetpack"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/jetpack-architecture-components-in-android"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/behaviour-components-of-android-jetpack"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/ui-components-of-android-jetpack"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-install-android-studio-canary-version"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/view-binding-in-android-jetpack"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/view-binding-with-fragments-in-android-jetpack"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/basics-of-jetpack-compose-in-android"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-create-a-new-project-in-android-studio-canary-version-with-jetpack-compose"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/textview-in-android-using-jetpack-compose"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/imageview-in-android-using-jetpack-compose"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/radiobuttons-in-android-using-jetpack-compose"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/proressbar-in-android-using-jetpack-compose"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/alertdialog-in-android-using-jetpack-compose"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/topappbar-in-android-using-jetpack-compose"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/circular-imageview-in-android-using-jetpack-compose"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/checkbox-in-android-using-jetpack-compose"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/button-in-android-using-jetpack-compose"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/edittext-in-android-using-jetpack-compose"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/android-architecture-patterns"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/mvc-model-view-controller-architecture-pattern-in-android-with-example"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/mvp-model-view-presenter-architecture-pattern-in-android-with-example"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/mvvm-model-view-viewmodel-architecture-pattern-in-android"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/difference-between-mvc-and-mvvm-architecture-pattern-in-android"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/difference-between-mvc-and-mvp-architecture-pattern-in-android"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/difference-between-mvp-and-mvvm-architecture-pattern-in-android"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/difference-between-mvc-mvp-and-mvvm-architecture-pattern-in-android"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-publish-your-android-app-on-google-play-store"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-publish-your-android-app-on-amazon-app-store-for-free"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/overview-of-google-admob"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/android-admob-banner-ads-android-studio"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/admob-interstitial-ads-android-studio"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-integrate-google-admob-rewarded-video-ads-in-android"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/overview-of-facebook-audience-network"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-integrate-facebook-audience-network-fan-banner-ads-in-android"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-integrate-facebook-audience-network-fan-native-ads-in-android"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-integrate-facebook-audience-network-fan-interstitial-ads-in-android"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-integrate-facebook-audience-network-fan-rewarded-video-ads-in-android"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-build-a-simple-calculator-app-using-android-studio"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-create-a-stopwatch-app-using-android-studio"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-build-a-simple-flashlight-torchlight-android-app"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-build-a-simple-notes-app-in-android"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-build-spin-the-bottle-game-application-in-android"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-create-a-covid-19-tracker-android-app"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-build-a-tic-tac-toe-game-in-android"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-create-a-face-detection-android-app-using-machine-learning-kit-on-firebase"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-build-a-simple-augmented-reality-android-app"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-build-a-grocery-android-app"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-build-a-video-calling-android-app-with-jitsi-meet-sdk"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-install-android-applications-in-mobile-phone-without-usb-cables-using-android-studio"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/tips-to-prepare-your-android-app-for-launch-in-google-play-store"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/top-7-google-play-store-tips-that-you-should-try"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/top-8-tips-to-get-your-android-app-featured-on-google-play-store"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/7-tips-to-improve-your-android-development-skills"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/top-7-books-for-android-app-development"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/8-best-android-libraries-that-every-android-developer-should-know"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-reduce-apk-size-in-android"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/6-most-useful-android-studio-plugins"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/8-must-have-skills-for-becoming-an-android-app-developer"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/7-major-reasons-why-your-android-app-is-performing-slow-must-read-for-developers"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-create-a-facebook-login-using-an-android-app"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/screen-orientations-in-android-with-examples"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-change-input-method-action-button-in-android"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/introduction-retofit-2-android-set-1"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-display-the-list-of-sensors-present-in-an-android-device-programmatically"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-check-the-battery-level-in-android-programmatically"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-determine-the-current-dock-type-in-android"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-check-if-the-android-device-is-in-dock-state"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-vibrate-a-device-programmatically-in-android"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/input-events-in-android-with-example"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/android-gestures-with-examples"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/session-management-in-android-with-example"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/include-and-merge-tags-in-android-with-example"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-use-proguard-to-reduce-apk-size-in-android"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-use-r8-to-reduce-apk-size-in-android"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/difference-between-proguard-and-r8-in-android"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/welcome-to-the-modern-android-app-development"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/top-50-android-interview-questions-answers-sde-i-to-sde-iii"
+        },
+        {
+            "type": "a",
+            "content": "https://news.google.com/publications/CAAqBwgKMLTrzwsw44bnAw?hl=en-IN&gl=IN&ceid=IN%3Aen"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/introduction-to-android-development/?ref=next_article"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/introduction-to-android-development/?ref=next_article"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/android-android-apps-file-structure/?ref=asr1"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/whats-android-interface-definition-language-aidl-in-android/?ref=asr2"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/android-running-your-first-android-app/?ref=asr3"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-add-opencv-library-into-android-application-using-android-studio/?ref=asr4"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/8-best-android-libraries-that-every-android-developer-should-know/?ref=asr5"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-add-audio-files-to-android-app-in-android-studio/?ref=asr6"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/different-ways-to-change-android-sdk-path-in-android-studio/?ref=asr7"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-capture-a-screenshot-of-an-android-device-using-android-studio/?ref=asr8"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/different-ways-to-fix-select-android-sdk-error-in-android-studio/?ref=asr9"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/different-ways-to-analyze-apk-size-of-an-android-app-in-android-studio/?ref=asr10"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/different-ways-to-fix-error-running-android-gradle-project-sync-failed-in-android-studio/?ref=asr11"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-fix-android-studio-logcat-nothing-to-show-in-android-studio/?ref=asr12"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-build-a-number-shapes-android-app-in-android-studio/?ref=asr13"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-fix-android-os-network-on-main-thread-exception-error-in-android-studio/?ref=asr14"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/10-android-studio-tips-and-tricks-for-android-developers/?ref=asr15"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/fix-android-emulator-gets-killed-error-in-android-studio/?ref=asr16"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-build-binary-to-decimal-converter-android-app-in-android-studio/?ref=asr17"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-use-stack-overflow-to-fix-errors-during-android-app-development-in-android-studio/?ref=asr18"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/fix-error-running-android-gradle-project-sync-failed-please-fix-your-project-and-try-again-in-android-studio/?ref=asr19"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-make-a-scientific-calculator-android-app-using-android-studio/?ref=asr20"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-convert-any-website-to-android-app-in-android-studio/?ref=asr21"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/fix-error-could-not-find-method-implementation-for-arguments-com-android-supportappcompat-v726-0-0-in-android-studio/?ref=asr22"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-change-app-icon-of-android-programmatically-in-android/?ref=asr23"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/implementation-of-facebooks-android-device-year-class-library-in-android/?ref=asr24"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/star-shower-in-android-using-android-property-animation/?ref=asr25"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-build-a-prime-number-checker-android-app-in-android-studio/?ref=asr26"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/build-an-android-app-with-html-css-and-javascript-in-android-studio/?ref=asr27"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/android-runtime-permissions-with-dexter-using-android-jetpack-compose/?ref=asr28"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/creating-a-anagram-checker-android-app-in-android-studio-with-kotlin/?ref=asr29"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-use-fast-android-networking-library-in-android-with-example/?ref=asr30"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/category/android/?ref=article_category"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/tag/tutorials/?ref=article_tag"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/courses/dsa-to-development-coding-guide?utm_source=geeksforgeeks&utm_medium=right_sidebar&utm_campaign=course_card"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/courses/mastering-generative-ai-and-chat-gpt?utm_source=geeksforgeeks&utm_medium=right_sidebar&utm_campaign=course_card"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/"
+        },
+        {
+            "type": "a",
+            "content": "https://www.facebook.com/geeksforgeeks.org/"
+        },
+        {
+            "type": "a",
+            "content": "https://www.instagram.com/geeks_for_geeks/"
+        },
+        {
+            "type": "a",
+            "content": "https://in.linkedin.com/company/geeksforgeeks"
+        },
+        {
+            "type": "a",
+            "content": "https://twitter.com/geeksforgeeks"
+        },
+        {
+            "type": "a",
+            "content": "https://www.youtube.com/geeksforgeeksvideos"
+        },
+        {
+            "type": "a",
+            "content": "https://geeksforgeeksapp.page.link/gfg-app"
+        },
+        {
+            "type": "a",
+            "content": "https://geeksforgeeksapp.page.link/gfg-app"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/about/?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/legal/?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://geeksforgeeks.zohorecruit.in/careers?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/press-release/?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/about/contact-us/?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/advertise-with-us/?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/gfg-corporate-solution/?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/campus-training-program/?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://practice.geeksforgeeks.org/events/rec/job-a-thon/?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/events/rec/gfg-hackathon/?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://practice.geeksforgeeks.org/events/rec/gfg-weekly-coding-contest?utm_source=geeksforgeeks&utm_medium=footer&utm_campaign=gfgweekly/?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/courses/category/all?courseType=offline&courseFeeType=all/?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/courses/dsa-self-paced?utm_source=geeksforgeeks&utm_medium=footer&utm_campaign=course/?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/courses/mastering-system-design-low-level-to-high-level-solutions?utm_source=geeksforgeeks&utm_medium=footer&utm_campaign=course/?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/courses/competitive-programming-cp?utm_source=geeksforgeeks&utm_medium=footer&utm_campaign=course"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/videos/?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/community/?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/introduction-to-programming-languages/?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/python-programming-language/?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/java/?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/c-plus-plus/?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/php-tutorials/?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/golang/?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/sql-tutorial/?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/r-tutorial/?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/android-tutorial/?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/learn-data-structures-and-algorithms-dsa-tutorial/?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/data-structures/?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/fundamentals-of-algorithms/?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/complete-guide-to-dsa-for-beginners/?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/basic-coding-problems-in-dsa-for-beginners/?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/complete-roadmap-to-learn-dsa-from-scratch/?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/top-100-data-structure-and-algorithms-dsa-interview-questions-topic-wise/?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/competitive-programming-a-complete-guide/?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/ai-ml-ds/?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/data-science-tutorial/?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/data-science-for-beginners/?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/machine-learning/?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/machine-learning-mathematics/?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/python-data-visualization-tutorial/?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/pandas-tutorial/?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/numpy-tutorial/?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/natural-language-processing-nlp-tutorial/?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/deep-learning-tutorial/?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/web-technology/?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/html/?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/css/?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/javascript/?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/typescript/?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/learn-reactjs/?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/nextjs/?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/nodejs/?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/bootstrap/?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/tailwind-css/?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/python-programming-language/?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/python-programming-examples/?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/django-tutorial/?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/python-projects-beginner-to-advanced/?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/python-tkinter-tutorial/?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/python-web-scraping-tutorial/?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/opencv-python-tutorial/?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/python-interview-questions/?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/gate-cs-notes-gq/?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/gate-cs-notes-gq/?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/operating-systems/?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/computer-network-tutorials/?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/dbms/?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/software-engineering/?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/digital-electronics-logic-design-tutorials/?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/engineering-mathematics-tutorials/?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/devops-tutorial/?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/git-tutorial/?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/aws-tutorial/?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/docker-tutorial/?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/kubernetes-tutorial/?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/microsoft-azure/?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/google-cloud-platform-tutorial/?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/devops-roadmap/?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/system-design-tutorial/?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/what-is-high-level-design-learn-system-design/?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/what-is-low-level-design-or-lld-learn-system-design/?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/unified-modeling-language-uml-introduction/?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/system-design-interview-guide/?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/software-design-patterns/?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/object-oriented-analysis-and-design/?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/system-design-interview-bootcamp-guide/?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/most-commonly-asked-system-design-interview-problems-questions/?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/maths/?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/physics/?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/chemistry/?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/biology/?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/social-science/?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/english-grammar/?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/commerce/?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/accountancy/?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/business-studies/?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/economics/?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/management/?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/human-resource-management-hrm/?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/finance/?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/income-tax/?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/getting-started-with-database-management-system/?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/sql-tutorial/?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/mysql-tutorial/?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/postgresql-tutorial/?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/pl-sql-tutorial/?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/mongodb-tutorial/?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/technical-interview-preparation/?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/company-wise-recruitment-process/?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/free-resume-templates/?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/aptitude-questions-and-answers/?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/puzzles/?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/company-preparation/?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/companies/?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/colleges/?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/jee-advanced/?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/ugc-net-exam/?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/upsc-2024-study-materials-and-notes/?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/ssc-cgl-syllabus/?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/sbi-po-syllabus-2024/?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/sbi-clerk-syllabus/?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/ibps-po-syllabus/?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/detailed-syllabus-of-ibps-clerk/?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/geeksforgeeks-online-tutorials-free/?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/software-development/?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/software-testing-tutorial/?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/product-management/?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/project-management-tutorial/?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/linux-tutorial/?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/excel-tutorial/?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/geeksforgeeks-master-sheet-list-of-all-cheat-sheets/?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/page/1/?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/free-typing-test/?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/online-image-editor/?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/online-code-formatter/?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/online-file-converters/?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/currency-converter/?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/random-number-generator/?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/random-password-generator/?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://write.geeksforgeeks.org/?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/how-to-improve-an-article/?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://write.geeksforgeeks.org/pick-article/?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/share-your-experiences-on-geeksforgeeks/?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://write.geeksforgeeks.org/internship/?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/courses/dsa-self-paced?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/courses/data-structures-and-algorithms-in-javascript?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/courses/Data-Structures-With-Python?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/courses/c-Programming-basic-to-advanced?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/courses/complete-interview-preparation?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/courses/competitive-programming-cp?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/courses/core-computer-science-for-interview-preparation?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/courses/mastering-system-design-low-level-to-high-level-solutions?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/courses/interviewe-101-data-structures-algorithm-system-design?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/courses/dsa-to-development-coding-guide?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/courses/placement-prep-live?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/courses/javascript?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/courses/react-js-beginner-to-advance?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/courses/react-native-course-online?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/courses/mastering-django-framework-beginner-to-advance?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/courses/bootstrap?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/courses/full-stack-node?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/courses/Java-backend-live?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/courses/software-testing-course-online?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/courses/android-by-kotlin?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/courses/mastering-generative-ai-and-chat-gpt?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/courses/data-analytics-training-program-excel-sql-python-powerbi?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/courses/data-science-live?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/courses/full-stack-applied-data-science-program?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/courses/c-Programming-basic-to-advanced?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/courses/cpp-programming-basic-to-advanced?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/courses/java-online-course-complete-beginner-to-advanced?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/courses/master-python-complete-beginner-to-advanced?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/courses/javascript?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/courses/devops-live?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/courses/AWS-solutions-architect-certification-training-program-live?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/courses/salesforce-certified-administrator?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/courses/test-series-2025?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/courses/gate-da-testseries-2025?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/courses/gate-cs-self-paced?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/courses/gate-ds-ai-self-paced?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/copyright-information/"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/cookie-policy/"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/privacy-policy/"
+        },
+        {
+            "type": "a",
+            "content": "https://www.geeksforgeeks.org/android-tutorial/?ref=footer"
+        },
+        {
+            "type": "a",
+            "content": "https://write.geeksforgeeks.org/posts-new?cid=e8fc46fe-75e7-4a4b-be3c-0c862d655ed0"
+        },
+        {
+            "type": "a",
+            "content": "https://write.geeksforgeeks.org/posts-new?cid=82536bdb-84e6-4661-87c3-e77c3ac04ede"
+        },
+        {
+            "type": "a",
+            "content": "https://write.geeksforgeeks.org/posts-new?cid=5219b0b2-7671-40a0-9bda-503e28a61c31"
+        },
+        {
+            "type": "a",
+            "content": "https://write.geeksforgeeks.org/posts-new?cid=22ae3354-15b6-4dd4-a5b4-5c7a105b8a8f"
+        },
+        {
+            "type": "a",
+            "content": "https://write.geeksforgeeks.org/posts-new?cid=c5e1ac90-9490-440a-a5fa-6180c87ab8ae"
+        },
+        {
+            "type": "a",
+            "content": "https://write.geeksforgeeks.org/posts-new?cid=5ebb8fe9-b980-4891-af07-f2d62a9735f2"
+        }
+    ],
+    "metadata": [
+        {
+            "name": "keywords",
+            "content": "Data Structures,Algorithms,Python,Java,C,C++,JavaScript,Android Development,SQL,Data Science,Machine Learning,PHP,Web Development,System Design,Tutorial,Technical Blogs,Interview Experience,Interview Preparation,Programming,Competitive Programming,Jobs,Coding Contests,GATE CSE,HTML,CSS,React,NodeJS,Placement,Aptitude,Quiz,Computer Science,Programming Examples,GeeksforGeeks Courses,Puzzles,SSC,Banking,UPSC,Commerce,Finance,CBSE,School,k12,General Knowledge,News,Mathematics,Exams"
+        },
+        {
+            "name": "viewport",
+            "content": "width=device-width, initial-scale=1.0, minimum-scale=0.5, maximum-scale=3.0"
+        },
+        {
+            "name": "theme-color",
+            "content": "#308D46"
+        },
+        {
+            "name": "robots",
+            "content": "index, follow, max-image-preview:large, max-snippet:-1"
+        },
+        {
+            "name": "image",
+            "content": "https://media.geeksforgeeks.org/wp-content/cdn-uploads/gfg_200x200-min.png"
+        },
+        {
+            "property": "og:image:type",
+            "content": "image/png"
+        },
+        {
+            "property": "og:image:width",
+            "content": "200"
+        },
+        {
+            "property": "og:image:height",
+            "content": "200"
+        },
+        {
+            "name": "facebook-domain-verification",
+            "content": "xo7t4ve2wn3ywfkjdvwbrk01pvdond"
+        },
+        {
+            "name": "description",
+            "content": "Explore our comprehensive Android tutorial for beginners and experts alike. Learn essential app development skills, from Java basics to advanced Kotlin techniques. Start building Android apps today with step-by-step guides and practical examples"
+        },
+        {
+            "property": "og:locale",
+            "content": "en_US"
+        },
+        {
+            "property": "og:type",
+            "content": "article"
+        },
+        {
+            "property": "og:title",
+            "content": "Android Tutorial - GeeksforGeeks"
+        },
+        {
+            "property": "og:description",
+            "content": "Explore our comprehensive Android tutorial for beginners and experts alike. Learn essential app development skills, from Java basics to advanced Kotlin techniques. Start building Android apps today with step-by-step guides and practical examples"
+        },
+        {
+            "property": "og:url",
+            "content": "https://www.geeksforgeeks.org/android-tutorial/"
+        },
+        {
+            "property": "og:site_name",
+            "content": "GeeksforGeeks"
+        },
+        {
+            "property": "article:tag",
+            "content": "Tutorials"
+        },
+        {
+            "property": "article:section",
+            "content": "Android"
+        },
+        {
+            "property": "article:published_time",
+            "content": "2021-02-23T14:54:47+00:00"
+        },
+        {
+            "property": "article:modified_time",
+            "content": "2024-10-08T17:43:29+00:00"
+        },
+        {
+            "property": "og:updated_time",
+            "content": "2024-10-08T17:43:29+00:00"
+        },
+        {
+            "property": "og:image",
+            "content": "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20210215201419/Android-Tutorial.png"
+        },
+        {
+            "property": "og:image:secure_url",
+            "content": "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20210215201419/Android-Tutorial.png"
+        },
+        {
+            "property": "og:image:width",
+            "content": "900"
+        },
+        {
+            "property": "og:image:height",
+            "content": "404"
+        },
+        {
+            "property": "og:image:alt",
+            "content": "Android Tutorial - Beginner to Advanced"
+        },
+        {
+            "name": "msapplication-TileImage",
+            "content": "https://www.geeksforgeeks.org/wp-content/uploads/gfg_200X200.png"
+        }
+    ]
+}
